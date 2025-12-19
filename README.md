@@ -1,16 +1,61 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Notes application built using **React** and **Tailwind CSS**.  
+This app allows users to add and view notes in a modern card-based UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✍️ Add notes with title and details
+- 🎨 Clean and modern UI using Tailwind CSS
+- 🗂 Notes displayed in responsive card layout
+- ⚡ Fast and lightweight React application
+- 📱 Responsive design (works on all screen sizes)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React JS**
+- **Tailwind CSS**
+- **JavaScript (ES6)**
+- **Vite**
+
+---
+
+## 📂 Project Structure
+
+notes-app/
+├── src/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── public/
+├── package.json
+└── README.md
+
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Paras9771/notes-app.git
+2.Go to project directory:
+cd notes-app
+
+3. Install dependencies:
+   Install dependencies:
+
+4. Start development server:
+   npm run dev
+
+## 🗑 Delete notes
+
+✏️ Edit notes
+
+💾 Save notes using Local Storage
+
+🔍 Search notes functionality
